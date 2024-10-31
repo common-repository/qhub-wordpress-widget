@@ -1,0 +1,49 @@
+=== Qhub Wordpress Widget ===
+
+Contents:
+
+1. Introduction
+2. Installation
+3. Formatting Tags
+4. Widget
+5. In Page Related Questions
+
+1. INTRODUCTION
+The Qhub Wordpress Widget provides an array of tools to you, for the inclusion of your Qhub questions into your Wordpress blog. All you need to get set up is the URL of your Qhub account minus the http://.
+
+Once set up you are able to create any number of Qhub Widgets set to show on specific pages / blog posts and each with its own filtering settings, giving a vast array of output customization.
+
+2. INSTALLATION
+To install the Qhub Wordpress Widget, you need to first upload a copy of the plug-in into your Wordpress installation; either through the built-in plug-in installer within Wordpress or via FTP upload into your /wp-content/plugins folder.
+
+Once you have uploaded the files, load up the plug-in page within wp-admin and click the activate link underneath the text Qhub Wordpress Widget within the table. If you are unable to see Qhub Wordpress Widget within that table and have correctly uploaded the plug-in files, check that the table is not filtered by Active plug-ins by clicking on the All link just below the Manage Plugins title.
+
+Once activated, you need to let the plug-in know your Qhub URL. This can be set within the Qhub Plugin Configuration panel, visible within the Settings pane. Enter your URL for example: abc.qhub.com without the http://
+
+From within this configuration panel you may edit any of the default settings related to the Qhub Wordpress Plugin,
+
+3. FORMATTING TAGS
+The plugin has seven tags for formatted output, the default output can be modified within the Qhub Plugin Configuration. A detailed explanation of the output tags can be seen below:
+
+{question} - Includes the question text into the output of the plug-in.
+{question_url} - Includes the URL to the Qhub page containing the question text, this is normally used for linking using the <a> html tag.
+{tags} - Includes the tags associated with the question in comma separated linear list.
+{author} - Includes the name of the questions author.
+{author_url} - Includes the URL to the authors Qhub profile.
+{answers} - Included how many answers have been given for the question.
+{created}  - Includes the date stamp for the question.
+{timesince} - Includes a nicer version of the date stamp in a format much like facebook or twitter for example: 24 seconds ago, 3 days ago, etc.
+
+4. WIDGET
+The widget functionality gives you per widget customization of how you wish your questions to look when loaded into the sidebar of your blog.
+
+Each widget has multiple customizable filters to define what kind of question, how many to show and if its been answered or not.
+
+There is also the Show related questions checkbox, which when checked will filter questions by the tags set within the post page the widget is loaded upon.
+
+5. IN PAGE RELATED QUESTIONS
+By default the plug-in appends related questions to the end of post text, which is customizable for each post through the Related Qhub Settings panel within the edit post window.
+
+From here you are able to edit the default output, number of questions to show and if to show all questions or just those not answered / answered.
+
+If you don’t set any default tags then those set for the post will be used, this enables you to just show questions tagged differently to the post when their tags may not be entirely relevant to the post.
